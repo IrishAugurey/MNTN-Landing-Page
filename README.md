@@ -15,9 +15,8 @@ The goal is to practice:
 - CSS3
 - Git & GitHub
 
-## 👥 Contributors
+## Contributors
 - [IrishAugurey](https://github.com/IrishAugurey)  
-- [Your Teammate's Username](https://github.com/theirusername)
 
 
 ## License
