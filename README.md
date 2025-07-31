@@ -16,7 +16,8 @@ The goal is to practice:
 - Git & GitHub
 
 ## Contributors
-- [IrishAugurey](https://github.com/IrishAugurey)  
+- [IrishAugurey](https://github.com/IrishAugurey)
+- [artembochnuk](https://github.com/artembochnuk)
 
 
 ## License
