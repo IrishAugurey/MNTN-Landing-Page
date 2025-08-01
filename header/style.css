@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  color: white;
+  background-image: url(img/test_Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 80px;
+  background: transparent;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #FBD784;
+  transform: translateY(-3px);
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.account i {
+  font-size: 18px;
+}
+
+.account a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.2s ease-in-out;
+}
+
+.account a:hover {
+  color: #FBD784;
+  transform: translateY(-3px);
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.burger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  padding: 20px;
+  z-index: 99;
+  border-radius: 8px;
+}
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.mobile-nav a:hover {
+  color: #FBD784;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .mobile-nav.show {
+    display: flex;
+  }
+
+  .account {
+    display: none;
+  }
+}
